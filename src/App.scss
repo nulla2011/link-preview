@@ -1,0 +1,12 @@
+#root {
+  text-align: center;
+  width: 100vw;
+  margin-inline: 4em;
+  @media screen  and (max-width: 480px){
+    margin-inline: 1em;
+  }
+}
+
+.header-wrapper{
+  margin: 80px auto;
+}
