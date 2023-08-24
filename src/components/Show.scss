@@ -1,0 +1,10 @@
+.text {
+  font-size: 16px;
+}
+.badge-wrapper {
+  display: inline-block;
+  width: 9em;
+  .badge {
+    font-size: 14px;
+  }
+}

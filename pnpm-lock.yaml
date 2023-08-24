@@ -23,6 +23,9 @@ dependencies:
   swr:
     specifier: ^2.2.1
     version: 2.2.1(react@18.2.0)
+  yet-another-react-lightbox:
+    specifier: ^3.12.1
+    version: 3.12.1(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@types/react':
@@ -2103,6 +2106,17 @@ packages:
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
+
+  /yet-another-react-lightbox@3.12.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-jymcueTmoaVEQfKytnKf5EqH2fNIjxBVutOzh5ufe4nhlrj24f/TUjNmYjNj6yaGdIbkP0xW3/AzOKWY7cwKoA==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
