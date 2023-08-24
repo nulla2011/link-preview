@@ -69,5 +69,5 @@ export default function Show({ url }: { url: string }) {
         )}
       </>
     );
-  }
+  } else return null;
 }
