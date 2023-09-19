@@ -44,7 +44,7 @@ export default function Show({ url }: { url: string }) {
           <ListGroup.Item as="li">
             <span className="badge-wrapper">
               {' '}
-              <Badge>Number of Files</Badge>
+              <Badge>Files Count</Badge>
             </span>
             <span className="text ms-2">{data.count}</span>
           </ListGroup.Item>
